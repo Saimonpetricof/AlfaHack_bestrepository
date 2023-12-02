@@ -1,5 +1,6 @@
 # AlfaHack_bestrepository
 Репозиторий для второго этапа хакатона от Альфа банка
+
 Мы проделали следующий препроцессинг:
 Выбросили признаки 'city', 'index_city_code', 'branch_code', 'cnt_days_cred_f_oper_1m', 'cnt_a_oper_1m', 'cnt_a_oper_3m', 'cnt_days_cred_g_oper_1m', 'cnt_deb_d_oper_1m', 'cnt_days_cred_g_oper_3m';
 Заполнили Nan значения нулями в признаках 'max_end_plan_non_fin_deals','max_start_fin_deals', 'max_start_non_fin_deals', 'min_end_fact_fin_deals', 'min_start_fin_deals', 'min_start_non_fin_deals', 'max_founderpres', 'min_founderpres', 'max_end_fact_fin_deals', 'min_end_plan_non_fin_deals';
